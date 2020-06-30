@@ -1,17 +1,11 @@
 body{
-  background-color: #ecf0f1
-}
-
-.btn{
-  cursor :pointer;
-}
-
-body {
-  color: #34495e
-}
-
-.clicked {
-  color: #7f8c8d;
+  background-color: #ecf0f1;
+  color: #34495e;
+  display : flex;
+  flex-direction: column;
+  height : 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .form,
