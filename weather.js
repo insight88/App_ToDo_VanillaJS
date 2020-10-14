@@ -12,7 +12,7 @@ function getWeather(lat, lon){
         const place = json.name;
         const skyCondition = json.weather[0].main;
         const nation = json.sys.country;
-        weather.innerText = ` weather is ${skyCondition} & ${temperature} ℃  at ${place},${nation}`;
+        weather.innerText = `Weather is ${skyCondition} & ${temperature} ℃ \n at ${place},${nation}`;
     })
 }
 
@@ -33,7 +33,7 @@ function handleGeoSucces(position){
 }
 
 function handleGeoError(){
-    console.log("Cant access geo location");
+    console.log("Can't access geo location");
 }
 
 function askForCoords(){
